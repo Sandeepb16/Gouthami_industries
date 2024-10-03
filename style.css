@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contact{
+    height: 5vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+    height: 100%;
+
+}
+
+.contact .contact_term{
+    text-align: center;
+    width: 15%;
+    font-size: medium;
+
+}
+
+/* header style  */
+header{
+    height: 11vh;
+    /* border: 2px solid red; */
+}
+
+.contact .contact_gmail{
+    font-size: medium;
+
+}
+
+#icon{
+    height: 80%;
+}
+
+header nav{
+    height: 10vh;
+}
+
+.navbar-brand{
+    width: 15%;
+    padding: 1%;
+}
+
+.container-fluid{
+    height: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.241);
+    color: red;
+    font-size: medium;
+}
+
+
+.img{
+    padding-bottom: 2%;
+}
+.main-container{
+    padding: 3%;
+}
+.about-font{
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    padding: 0% 12%;
+    /* font-family:  sans-serif; */
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 990px) {
+    .img {
+        margin-top: 24vh; /* Increase margin for mobile view */
+    }
+}
+
