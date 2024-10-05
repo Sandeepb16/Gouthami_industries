@@ -5,7 +5,7 @@
 }
 
 .contact{
-    height: 5vh;
+    /* height: 5vh; */
     background-color: red;
     display: flex;
     justify-content: center;
@@ -22,19 +22,21 @@
 
 .contact .contact_term{
     text-align: center;
-    width: 15%;
+    /* width: 15%; */
     font-size: medium;
+    margin-left: 30px;
 
 }
 
-/* header style  */
-header{
-    height: 11vh;
-    /* border: 2px solid red; */
+.dropdown-menu .dropdown-item:hover{
+    background-color: rgba(0, 0, 0, 0.615);
+    color: white;
 }
+
 
 .contact .contact_gmail{
     font-size: medium;
+    margin-left: 30px;
 
 }
 
@@ -73,8 +75,56 @@ header nav{
     font-weight: 400;
     font-style: normal;
 }
+.blurr{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.19);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.01);
+padding:3%;
+}
+.foot{
+    background-color: rgba(0, 0, 0, 0.795);
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.footnavbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footitems{
+    /* width: 10%; */
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
 
+}
+
+.footitems a:active{
+    text-decoration: none;
+}
+.footitems a:link{
+    color: white;
+    text-decoration: none;
+
+}
+.footitems a:visited{
+    color: white;
+    text-decoration: none;
+
+}
+.footitems a:hover{
+    color: red;
+}
+.fot1{
+    margin-left: 10px;
+}
 
 
 
@@ -106,6 +156,17 @@ header nav{
 @media (max-width: 990px) {
     .img {
         margin-top: 24vh; /* Increase margin for mobile view */
+    }
+    .contact{
+        display: block;
+    }
+    .contact_term,.contact_gmail{
+       
+        text-align: center;
+    }
+    .footnavbar{
+        display: block;
+        text-align: center;
     }
 }
 
