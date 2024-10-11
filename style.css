@@ -5,17 +5,18 @@
 }
 
 .contact{
-    /* height: 5vh; */
-    background-color: red;
+   
+    background-color:#E87A5D;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1%;
+    color: #2952b0;
 }
 
 .contact a{
     text-decoration: none;
-    color: white;
+    color: #3B5BA5;
     height: 100%;
 
 }
@@ -29,7 +30,7 @@
 }
 
 .dropdown-menu .dropdown-item:hover{
-    background-color: rgba(0, 0, 0, 0.615);
+    background-color: #2952b0;
     color: white;
 }
 
@@ -45,13 +46,24 @@
 }
 
 header nav{
-    height: 10vh;
+    height: 12vh;
+}
+.emptyspace{
+    display: none;
+    height: 30vh;
 }
 
 .navbar-brand{
-    width: 15%;
+    width: 24%;
     padding: 1%;
 }
+
+.nav-item a{
+    color: white;
+    font-family: Nanum Myeongjo, serif;
+    font-size: 18px;
+}
+
 
 .container-fluid{
     height: 100%;
@@ -65,13 +77,10 @@ header nav{
 .img{
     padding-bottom: 2%;
 }
-.main-container{
-    padding: 3%;
-}
+
 .about-font{
-    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+
     padding: 0% 12%;
-    /* font-family:  sans-serif; */
     font-weight: 400;
     font-style: normal;
 }
@@ -126,6 +135,18 @@ padding:3%;
     margin-left: 10px;
 }
 
+.col .card{
+    background-color: #f3b841d0;
+    margin-bottom: 20px;
+    border-radius: 30%;
+}
+
+.card img{
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+
 
 
 
@@ -154,19 +175,38 @@ padding:3%;
 
 
 @media (max-width: 990px) {
-    .img {
-        margin-top: 24vh; /* Increase margin for mobile view */
-    }
-    .contact{
-        display: block;
-    }
-    .contact_term,.contact_gmail{
-       
-        text-align: center;
-    }
-    .footnavbar{
-        display: block;
-        text-align: center;
-    }
+
+   .navbar-collapse {
+    background-color: #3b5ba5d8; /* Background for the collapsed menu */
+    padding-bottom: 20px; /* Add padding to prevent the menu from overlapping */
 }
+
+.img {
+    margin-top: 48vh; /* Ensure there is enough margin from the navbar */
+}
+
+/* Ensure the body has enough padding to push down content after expanding the navbar */
+.navbar-toggler.collapsed + .navbar-collapse {
+    margin-bottom: 20px; /* Create space between the navbar and the next element */
+}
+
+.navbar-brand{
+    width: 50%;
+}
+.nav-item a{
+    color: rgb(255, 255, 255);
+    
+}
+.contact_term,.contact_gmail{
+   
+    text-align: center;
+}
+.footnavbar{
+    display: block;
+    text-align: center;
+}
+
+}
+   
+
 
