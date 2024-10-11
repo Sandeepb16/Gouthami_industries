@@ -189,9 +189,13 @@ padding:3%;
 .navbar-toggler.collapsed + .navbar-collapse {
     margin-bottom: 20px; /* Create space between the navbar and the next element */
 }
+.contact{
+    display: block;
+}
 
 .navbar-brand{
-    width: 50%;
+    width: 60%;
+    font-size: 26px;
 }
 .nav-item a{
     color: rgb(255, 255, 255);
