@@ -56,6 +56,9 @@ header nav{
 .navbar-brand{
     width: 24%;
     padding: 1%;
+    color: #F3B941;
+     font-family: Abril Fatface, serif;
+      font-size: 35px;
 }
 
 .nav-item a{
@@ -148,8 +151,42 @@ padding:3%;
 
 
 
+/* about.html page  styling */
+.image-about{
+    height: auto;
+    
+}
+.main_aboutus{
+    background-color: #E87A5D;
+    padding: 5%;
+}
 
+.sub-div{
+    display: flex;
+    /* height: 60vh; */
+    padding: 5% 5% 0% 5%;
+}
+.sub-div .para1{
+    width: 65%;
+    /* border: 2px solid red; */
+    padding: 3%;
+    background-color: #3B5BA5;
+    color: white;
+    
 
+    
+}
+.sub-div .img1{
+    width: 35%;
+    /* border: 2px solid; */
+}
+
+.para2{
+    padding: 3%;
+    background-color: #3B5BA5;
+    color: white;
+    margin: 2% 5% 0% 5%;
+}
 
 
 
@@ -195,7 +232,7 @@ padding:3%;
 
 .navbar-brand{
     width: 60%;
-    font-size: 26px;
+    font-size: 1.4rem;
 }
 .nav-item a{
     color: rgb(255, 255, 255);
