@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <div class="certifimg" style="position: relative;">
+        <img src="image/imgcert.webp" alt=""  class="img-fluid">
+        <span style="font-size: 3rem; font-weight:700; padding: 1%; color: blue;" style="position: absolute; top:100px;">Certification </span>
+    </div>
+
+    <div class="certificatiom-details">
+        <p>we pride ourselves on our commitment to excellence and quality in every aspect of our operations. Our dedication to maintaining the highest standards is reflected in our certifications:</p>
+        <ul>
+            <li><span class="certi-name">Udyam Registration Certification:</span> This certification recognizes our status as a micro, small, or medium enterprise (MSME), affirming our contribution to the economy and enabling us to access various government benefits.</li><br>
+            <li><span class="certi-name">GST Registration Certificate:</span> Our GST registration ensures compliance with tax regulations, allowing us to conduct business seamlessly across states while providing transparency and reliability to our clients.</li><br>
+            <li><span class="certi-name">ZED Bronze Certificate:</span> This certification showcases our commitment to zero defect and zero effect manufacturing practices, emphasizing our focus on quality and sustainability in production.</li><br>
+        </ul>
+    </div>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000" id="c1">
+            <img src="image/GST Registration Certificate_page-0001.jpg" class="d-block w-100" alt="..." class="img-fluid" >
+          </div>
+          <div class="carousel-item" data-bs-interval="2000" id="c2">
+            <img src="image/Udyam Registration Certificate_page-0001.jpg" class="d-block w-100" alt="..." height="100%" class="img-fluid">
+          </div>
+          <div class="carousel-item" id="c3">
+            <img src="image/ZED Bronze Certificate_page-0001.jpg" class="d-block w-100" alt="..." height="100%" class="img-fluid" >
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev" >
+          <span class="carousel-control-prev-icon" aria-hidden="true" style="color: black;"></span>
+          <span id="prevbutton">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" ></span>
+          <span id="nextbutton">Next</span>
+        </button>
+      </div><br><br>
+ 
+
+    <footer class="foot">
+        <div class="footnavbar">
+  
+          <div class="footitems"><a href="index.html">Home </a> &nbsp;&nbsp;&nbsp;|</div>
+          <div class="footitems"><a href="about.html">About Us </a>&nbsp;&nbsp;&nbsp;|</div>
+          <div class="footitems"><a href="#">Products </a>&nbsp;&nbsp;&nbsp;|</div>
+          <div class="footitems"><a href="#">Facilities & Infrastructure </a>&nbsp;&nbsp;&nbsp;|</div>
+          <div class="footitems fot1"><a href="#">Contact Us  &nbsp;&nbsp;&nbsp;</a><span><b>Phone no :&nbsp;</b><a href="tel:9876543210">+91 9848129109</a></span></div>
+          <div class="footitems fot1"><a href="#"><b>Gmail : &nbsp; </b><a href="mailto:gouthamiindustries1@gmail.com"><span>gouthamiindustries1@gmail.com</a></span></div>
+  
+        </div>
+        <div class="contactus">
+  
+        </div>
+  
+      </footer>
+  
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+            });
+    </script>
+</body>
+</html>
