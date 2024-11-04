@@ -97,7 +97,8 @@ header nav{
 
 
 body{
-    background-color: black;
+    background-color: 
+    rgb(0, 0, 0);
   }
   
   .main{
@@ -306,6 +307,7 @@ padding:3%;
     padding: 5% 10%;
     font-size: 1.2rem;
     color: white;
+    /* color: black; */
 
 }
 
@@ -315,6 +317,7 @@ padding:3%;
     letter-spacing: 5px;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.929);
+    /* color: black; */
     transition: transform 0.2s;
   }
   
@@ -444,7 +447,7 @@ padding:3%;
   
 
 .certi-name{
-    color:#E87A5D;
+    color:#f1704d;
     font-size: 1.1rem;
     letter-spacing: 1px;
 }
@@ -458,6 +461,7 @@ padding:3%;
 }
 #nextbutton,#prevbutton{
     color: rgb(255, 255, 255); 
+    /* color: black; */
     padding: 2%;
      background-color: red;
      border-radius: 5px;
@@ -467,10 +471,74 @@ padding:3%;
 
 
 
+/* FACLITIE doc tyle */
 
 
+.detain_mach_heading{
+    color: #E87A5D;
+    text-align: center;
+    margin: 2%;
+}
 
+.title {
+	font-family: "Cairo";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 1px;
+	line-height:2
+}
 
+.title h1 {
+	background-image: url(image/26BROrSHlmyzzHf3i.webp);
+	background-size: cover;
+	color: transparent;
+	background-clip: text;
+	background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	margin: 10px 0;
+}
+.cardflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 1%;
+}
+
+.cardflex .card{
+    color: rgb(255, 255, 255);
+    /* color: black; */
+    background-color: rgb(0, 0, 0);
+    width: 650px;
+}
+
+.cardflex .card-title{
+    color: #E87A5D;
+}
+.cardflex .card-body{
+    height: 100%; 
+    padding-top: 5%;
+}
+.table_for_manpower{
+    width: 70vw; 
+    padding: 2%;
+    margin: auto;
+}
+
+.table_for_manpower td,.table_for_manpower th{
+    text-align: center;
+}
+
+.table_for_manpower .t1{
+    text-align: left;
+    padding-left: 18%;
+}
 
 
 
@@ -501,6 +569,7 @@ padding:3%;
     display: block;
 }
 
+
 .navbar-brand{
     width: 60%;
     font-size: 1.4rem;
@@ -520,6 +589,9 @@ padding:3%;
 .footitems{
     font-size: small;
     margin-bottom: 5px;
+}
+.title h1{
+    font-size: 4rem;
 }
 
 }
@@ -594,6 +666,12 @@ padding:3%;
           top: -6.375rem;
         }
       }
+
+
+
+      .title h1{
+        font-size: 2rem;
+    }
     
 }
 
